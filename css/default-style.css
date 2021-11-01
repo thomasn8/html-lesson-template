@@ -1,0 +1,25 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.wrapper {
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+.vertical-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+textarea {
+	resize: none;
+}
